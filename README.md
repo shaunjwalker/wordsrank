@@ -10,6 +10,6 @@ This program utilizes
 - a method, rank, to determine how "good" a segmentation is based upon the number of real dictionary word in it
 - a recursive method, split, to generate every possible segmentation of an input string
 
-The checkDict method searches through a hash table, created from the words contained in the "wordsLarge.txt" dictionary file, returning true if the word is found in the hash table, and false otherwise in otder to determine the authenticity of a word.  
-The rank method updates the best found segmentation so far by comparing the quality of each new segmentation to the current best segmentation
-The split method generates every possible segmentation of a string...
+The checkDict method searches through a hash table, created from the words contained in the "wordsLarge.txt" dictionary file, returning true if the word is found in the hash table, and false otherwise in otder to determine the authenticity of a word.    
+The rank method updates the best found segmentation so far by comparing the quality of each new segmentation to the current best segmentation   
+The split method generates every possible segmentation of a string, with its base case being that, when an input string has one or fewer characters, no segmentations occur. The recursive case is then that, when a string has more than one character, the string is recursively split at every possible point.
