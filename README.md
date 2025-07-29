@@ -21,6 +21,6 @@ This program requires Java 5 or later to compile and run.
 
 The driver class of this prject is wordsRank.java. In compiling and running this file, the user is prompted to enter a string to be segmented. Once inputted, the most likely segmentation of this input string is computed.  
 
-## Notes
+## Note
 
 Please note that, as this project was completed as part of a homework assignment, not all of the content was written by me. The object classes utilized are from Data Structures and Algorithms in Java, Sixth Edition Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser John Wiley & Sons, 2014. The wordsLarge.txt dictionary, as well as parts of some methods in WordsRank.java were provided by my professor. The methods provided by my professor were the rank, checkDict, and storeDict methods.
