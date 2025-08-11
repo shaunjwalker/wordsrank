@@ -24,10 +24,11 @@ Algorithm outline:
 - <b>Java 5</b> or later  
 
 ## Usage
-1. Compile
-   ```javac WordsRankSJW.java```
-2. Run
-   ```java WordsRankSJW```
+1. Compile and Run
+   ```
+   javac WordsRank.java
+   java WordsRank
+   ```
 3. Enter a string when prompted
 4. View the most likely segmentation and average runtime  
 
