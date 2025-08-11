@@ -10,28 +10,29 @@ This project was completed as part of a homework assignment for my CIS 320: Data
 This project implements a solution to identify the most likely segmentation of a given string into real dictionary words. For example, the string "SUNFLOWERSINTHEGARDEN" is determined to have a most likely segmentation of "SUNFLOWERS IN THE GARDEN". The average runtime over three runs of the algorithm is also calculated, deriving the overall average time taken to find the most likely segmentation of each word.  
 
 This program utilizes the following methods:
-- checkDict, to determine whether a token in a segmentation is a real, dictionary word
-- rank, to determine how "good" a segmentation is based upon the number of real dictionary word in it
-- a recursive method, split, to generate every possible segmentation of an input string
+- `checkDict`, to determine whether a token in a segmentation is a valid dictionary word
+- `rank`, to determine how "good" a segmentation is based upon the number of real dictionary words in it
+- a recursive method, `split`, to generate every possible segmentation of an input string
 
 Algorithm outline:
-1. Load dictionary into a hash table (storeDict method).
-2. Recursively split the string at all possible positions.
-3. Score each segmentation, keeping the best result found so far.
-4. Output the best segmentation and average runtime.
+1. Load dictionary into a hash table (storeDict method)
+2. Recursively split the string at all possible positions
+3. Score each segmentation, keeping the best result found so far
+4. Output the best segmentation and average runtime
 
 ## Requirements
-- <b>Java</b> 5 or later
+- <b>Java</b> 5 or later  
 
 ## Usage
 1. Compile
-   `javac WordsRankSJW.java`
+   ```javac WordsRankSJW.java```
 2. Run
-   `java WordsRankSJW`
+   ```java WordsRankSJW```
 3. Enter a string when prompted
-4. View the most likely segmentation and average runtime
+4. View the most likely segmentation and average runtime  
+
 ## Acknowledgments
 This project includes resources provided by my professor:
 - wordsLarge.txt dictionary file
-- Portions of the rank, checkDict, and storeDict methods
+- Portions of the `rank`, `checkDict`, and storeDict methods
 - Base object classes from Data Structures and Algorithms in Java, Sixth Edition by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
