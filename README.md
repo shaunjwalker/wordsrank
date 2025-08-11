@@ -34,5 +34,5 @@ Algorithm outline:
 ## Acknowledgments
 This project includes resources provided by my professor:
 - wordsLarge.txt dictionary file
-- Portions of the `rank`, `checkDict`, and storeDict methods
+- Portions of the `rank`, `checkDict`, and `storeDict` methods
 - Base object classes from Data Structures and Algorithms in Java, Sixth Edition by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
