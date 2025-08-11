@@ -7,11 +7,11 @@ This project was completed as part of a homework assignment for my CIS 320: Data
 - Performance measurement with runtime averaging
 
 ## Project Overview
-This project implements a solution to identify the most likely segmentation of a given string into real dictionary words. For example, the string "SUNFLOWERSINTHEGARDEN" is determined to have a most likely segmentation of "SUNFLOWERS IN THE GARDEN". The average runtime over three runs of the algorithm is also calculated, deriving the overall average time taken to find the most likely segmentation of each word.  
+This project implements a solution to identify the most likely segmentation of a given string into valid dictionary words. For example, the string "SUNFLOWERSINTHEGARDEN" is determined to have a most likely segmentation of "SUNFLOWERS IN THE GARDEN". The average runtime over three runs of the algorithm is also calculated, deriving the overall average time taken to find the most likely segmentation of each word.  
 
 This program utilizes the following methods:
 - `checkDict`, to determine whether a token in a segmentation is a valid dictionary word
-- `rank`, to determine how "good" a segmentation is based upon the number of real dictionary words in it
+- `rank`, to determine how "good" a segmentation is based upon the number of valid dictionary words in it
 - a recursive method, `split`, to generate every possible segmentation of an input string
 
 Algorithm outline:
@@ -21,7 +21,7 @@ Algorithm outline:
 4. Output the best segmentation and average runtime
 
 ## Requirements
-- <b>Java</b> 5 or later  
+- <b>Java 5</b> or later  
 
 ## Usage
 1. Compile
